@@ -51,14 +51,15 @@ const Create = () => {
                  onChange={(e) =>setAuthor(e.target.value)}
                  > 
                     
-                    <option value="mario">mario</option>
-                    <option value="yoshi">yoshi</option>
+                    <option value="Mario">Mario</option>
+                    <option value="Luigi">Luigi</option>
+                    <option value="Annonymous">Annonymous</option>
                 </select>
                 { !isPending && <button>Add Blog</button>}
                 {  isPending && <button disabled>Adding Blog</button>}
-                <p>{ title }</p>
+                {/* <p>{ title }</p>
                 <p>{ body }</p>
-                <p>{ author }</p>
+                <p>{ author }</p> */}
                 
             </form>
         </div>
